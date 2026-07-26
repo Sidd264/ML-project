@@ -1,0 +1,19 @@
+{
+    "project": "Machine Learning Prediction Model for Acute Oral Toxicity",
+    "model": "Baseline XGBoost",
+    "dataset": "ld50-smiles-descriptors-dataset",
+    "target_classes": [
+        "Highly Toxic (\u2264 50)",
+        "Moderately Toxic (50-2000)",
+        "Low Toxic (> 2000)"
+    ],
+    "feature_count": 25,
+    "evaluation": {
+        "accuracy": 0.6757,
+        "macro_f1": 0.6348,
+        "weighted_f1": 0.6687,
+        "roc_auc_ovr": 0.8128
+    },
+    "author": "Project Student",
+    "version": "1.0"
+}
